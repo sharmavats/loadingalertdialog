@@ -13,6 +13,7 @@
         android:layout_marginBottom="276dp"
         android:text="SUBMIT"
         android:textStyle="bold"
+        android:textColor="#0f9d58"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
@@ -27,6 +28,7 @@
         android:inputType="textPassword"
         android:text=""
         android:hint="Password"
+        android:textColorHint="#0f9d58"
         android:textStyle="bold"
         android:textAlignment="center"
         android:textSize="20dp"
@@ -44,9 +46,24 @@
         android:text=""
         android:hint="Username"
         android:textStyle="bold"
+        android:textColorHint="#0f9d58"
         android:textAlignment="center"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="138dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/gfg" />
 </androidx.constraintlayout.widget.ConstraintLayout>
